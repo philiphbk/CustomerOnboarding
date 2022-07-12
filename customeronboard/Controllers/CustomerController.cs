@@ -90,8 +90,6 @@ namespace customeronboard.Controllers
             };
 
 
-            
-            
             OTPservice.OTPServiceExtensions(customerCreateDto.PhoneNumber);
 
             
