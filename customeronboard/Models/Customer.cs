@@ -16,9 +16,9 @@ namespace customeronboard.Models
         [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Ensure the First Letter is uppercase e.g Lagos")]
         public string Residence { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Ensure the LGA is typed in Pascal Case e.g. Aba North ")]
         public string LGA { get; set; }
     }
 }
