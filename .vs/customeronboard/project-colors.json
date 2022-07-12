@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bfe2bbab-ab02-41a3-8c8c-4a8efef6b403": {
+      "ProjectGuid": "bfe2bbab-ab02-41a3-8c8c-4a8efef6b403",
+      "DisplayName": "customeronboard",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

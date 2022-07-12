@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>customeronboard</name>
+    </assembly>
+    <members>
+        <member name="M:customeronboard.Controllers.CustomerController.GetCustomers">
+            <summary>
+            Gets all the customers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:customeronboard.Controllers.CustomerController.GetCustomerById(System.Int32)">
+            <summary>
+            Gets Each Specific customer by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:customeronboard.Controllers.CustomerController.AddCustomer(customeronboard.Dtos.CustomerCreateDto)">
+            <summary>
+            Onboard customer by verifying their phone numbers and mapping their lga. 
+            </summary>
+            <param name="customerCreateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:customeronboard.Controllers.CustomerController.UpdateCustomer(customeronboard.Dtos.CustomerReadDto)">
+            <summary>
+            Edit Customer information
+            </summary>
+            <param name="customer"></param>
+            <returns>A</returns>
+        </member>
+        <member name="M:customeronboard.Controllers.CustomerController.DeleteCustomer(System.String)">
+            <summary>
+            Delete Customer
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
